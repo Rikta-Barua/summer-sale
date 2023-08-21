@@ -116,7 +116,7 @@ function applyButton() {
   
     const discountNumber = document.getElementById("discount");
     const discountText = discountNumber.innerText;
-    const discount = parseFloat(discountT);
+    const discount = parseFloat(discountText);
   
     const total = document.getElementById("grandTotal");
     total.innerText = (totalPrice - discount).toFixed(2);
